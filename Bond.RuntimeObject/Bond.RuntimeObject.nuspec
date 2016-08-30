@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Bond.RuntimeObject</id>
+    <version>$version$</version>
+    <authors>Chris Dahlberg, Ryan Durham</authors>
+    <owners>Care Otter</owners>
+    <licenseUrl>https://github.com/CareOtter/Bond.RuntimeObject/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/CareOtter/Bond.RuntimeObject/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Supports serialization and deserialization of Bond data using only a RuntimeSchema (without a corresponding .NET type).</description>
+    <summary>Supports serialization and deserialization of Bond data using only a RuntimeSchema (without a corresponding .NET type).</summary>
+    <copyright>Copyright (c) Microsoft</copyright>
+    <tags>Bond .NET C# serialization runtime</tags>
+    <dependencies>
+      <dependency id="Bond.Core.CSharp" version="[4.3.0]" />
+    </dependencies>
+  </metadata>
+</package>
